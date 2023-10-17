@@ -6,7 +6,7 @@ PC with Linux, or OS X and MATLAB. The code is simple and should work on pretty 
 
 2- Instalation
 
-Unpack the provided files in any user directory. 
+Download all the provided files in any user directory. 
 
 3- Running the program
 
