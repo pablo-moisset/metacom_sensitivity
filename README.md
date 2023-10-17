@@ -2,9 +2,9 @@
 
 1- System requirements
 
-PC with Linux, or OS X and MATLAB. The code is simple and should work on pretty much every version of MATLAB but we have only tested it using 2019a on Debian Linux 12 and OS X v10.15. gzip is required
+PC with Linux, or OS X, and MATLAB. The code is simple and should work on pretty much every version of MATLAB but we have only tested it using 2019a on Debian Linux 12 and OS X v10.15. gzip is required
 
-2- Instalation
+2- Installation
 
 Download all the provided files in any user directory. 
 
@@ -38,4 +38,4 @@ Scripts to create graphics
 
 4- Licence related issues
 
-All program files were written by us and are in the public domain with the exception of csvimport.m, hlp_deserialize.m,  hlp_serialize.m, and randraw.m. These file was obtained from MATLAB central and are used for formatting the plots and generating random numbers. They have no code related to the numerical experiments thenselves.
+All program files were written by us and are in the public domain with the exception of csvimport.m, hlp_deserialize.m,  hlp_serialize.m, and randraw.m. These files was obtained from MATLAB Central and are used for formatting the plots and generating random numbers. They have no code related to the numerical experiments themselves.
