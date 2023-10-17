@@ -1,0 +1,33 @@
+%close all ;
+figure ;
+errorbar(u_mig_tsh, mean_pa_ef1, se_pa_ef1, '-o', 'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+hold on;
+errorbar(u_mig_tsh, mean_pa_ef2, se_pa_ef2, '-o', 'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+errorbar(u_mig_tsh, mean_pa_ef3, se_pa_ef3, '-o',  'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+errorbar(u_mig_tsh, mean_pa_ef4, se_pa_ef4, '-o',  'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+hold off;
+xlabel('Migration rate threshold') ;
+ylabel('$P-\alpha$', 'interpreter', 'latex') ;
+legend({'$Ef=0.9$','$Ef=0.85$','$Ef=0.8$','$Ef=0.4$'},'interpreter','latex') ;
+
+figure ;
+errorbar(u_mig_tsh, mean_ba_ef1, se_ba_ef1, '-o', 'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+hold on;
+errorbar(u_mig_tsh, mean_ba_ef2, se_ba_ef2, '-o', 'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+errorbar(u_mig_tsh, mean_ba_ef3, se_ba_ef3, '-o',  'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+errorbar(u_mig_tsh, mean_ba_ef4, se_ba_ef4, '-o',  'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+hold off;
+xlabel('Migration rate threshold') ;
+ylabel('$B-\alpha$', 'interpreter', 'latex') ;
+legend({'$Ef=0.9$','$Ef=0.85$','$Ef=0.8$','$Ef=0.4$'},'interpreter','latex') ;
+
+figure ;
+errorbar(u_mig_tsh, mean_bg_ef1, se_bg_ef1, '-o', 'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+hold on;
+errorbar(u_mig_tsh, mean_bg_ef2, se_bg_ef2, '-o', 'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+errorbar(u_mig_tsh, mean_bg_ef3, se_bg_ef3, '-o',  'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+errorbar(u_mig_tsh, mean_bg_ef4, se_bg_ef4, '-o',  'MarkerSize',3.5, 'MarkerFaceColor', 'auto') ;
+hold off;
+xlabel('Migration rate threshold') ;
+ylabel('$B-\gamma$', 'interpreter', 'latex') ;
+legend({'$Ef=0.9$','$Ef=0.85$','$Ef=0.8$','$Ef=0.4$'},'interpreter','latex') ;
